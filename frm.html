@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Form</title>
+</head>
+<body bgcolor="grey">
+	<form name="reg_form" method="POST">
+	<fieldset>
+		<legend><b><u>Register Here</u></b></legend>
+		Name of Employee: &nbsp <input type="text" id="firstname" name="firstname" maxlength="25"><br><br>
+		Contact number: &nbsp <input type="text" id="contact" name="contact" maxlength="25"><br><br>
+		Email : &nbsp <input type="text" id="email" name="email" maxlength="25"><br><br>
+		Password: &nbsp <input type="password" id="password" name="password" maxlength="15"><br><br>
+		Repeat Password:&nbsp <input type="password" id="repassword" name="repassword" maxlength="15"><br><br>
+		Designation: &nbsp <select name="designation" id="designation"> <option>Choose Designation</option><option>Software Dev</option><option>Software Tester</option><option>Debugger</option>
+				</select> <br><br>
+		Phone No.:&nbsp <input type="phoneno" id="phoneno" name="phoneno" maxlength="15"><br><br>	
+		Choose your Gender: &nbsp <input type="radio" id="gender" name="gender" class="male">Male<input type="radio" id="gender" name="gender" class="female">Female<br><br>
+		Pincode:&nbsp <input type="pincode" id="pincode" name="pincode" maxlength="15"><br><br>
+		Department:&nbsp <select name="department" id="department"> <option>Choose Department</option><option>Technical</option><option>Accounts</option><option>Reception</option><option>Security</option>
+				</select> <br><br>
+		
+		<input type="checkbox" id="terms" name="terms" class="condition" checked="checked">I accept Terms and Conditions.<br><br>
+		
+
+		<input type="submit" class="submit" id="submit" value="Register">
+	</fieldset>
+	</form>
+</body>
+</html>
